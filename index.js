@@ -4,6 +4,8 @@ const express = require('express');
 const assert = require('assert');
 const fs = require('fs');
 require('dotenv').config();
+// var observer = new MutationObserver(onMutate);
+
 
 import Alpine from 'alpinejs'
 window.Alpine = Alpine
